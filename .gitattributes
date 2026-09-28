@@ -1,0 +1,15 @@
+*.svg text
+*.yaml linguist-detectable=false 
+*.jpg binary
+
+vendor/* linguist-vendored
+*.json linguist-detectable=false
+src/**/*.rs linguist-detectable
+*.png binary
+
+public/** linguist-vendored
+*.map linguist-generated
+
+*.html linguist-vendored
+
+# eof 70ca8033
